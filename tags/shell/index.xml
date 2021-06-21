@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shell on RCGuo&#39;s LogBook</title>
-    <link>https://github.com/RCGuo/RCGuo.github-io/tags/shell/</link>
+    <link>https://rcguo.github.io/tags/shell/</link>
     <description>Recent content in shell on RCGuo&#39;s LogBook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 15 May 2020 00:20:20 +0800</lastBuildDate><atom:link href="https://github.com/RCGuo/RCGuo.github-io/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 May 2020 00:20:20 +0800</lastBuildDate><atom:link href="https://rcguo.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Shell 重新導向: 將標準錯誤(stderr)輸出到螢幕和檔案</title>
-      <link>https://github.com/RCGuo/RCGuo.github-io/posts/2020/linux_shell_redirect_stderr_stdout/</link>
+      <link>https://rcguo.github.io/posts/2020/linux_shell_redirect_stderr_stdout/</link>
       <pubDate>Fri, 15 May 2020 00:20:20 +0800</pubDate>
       
-      <guid>https://github.com/RCGuo/RCGuo.github-io/posts/2020/linux_shell_redirect_stderr_stdout/</guid>
+      <guid>https://rcguo.github.io/posts/2020/linux_shell_redirect_stderr_stdout/</guid>
       <description>開發的時候曾經遇到一個情況，需要在 shell 執行程式時將 stderr 導向 console，但是不能顯示stdout 的訊息，且必須同時 stderr 和 stdout 記錄到 log 檔案。
 文件描述符 (file descriptor) 在 UNIX/Linux 系統中，是使用非負整數(0, 1, 2, &amp;hellip;)來表示文件描述符(file descriptor, fd)，用於標示系統中打開的文件和資源。 系統預設打開 0 (stdin), 1 (stdout), 2 (stderr)，也是我們平常常用到的描述符。
 接下來會將需求實作出來，並舉幾個例子以及需要注意的地方:

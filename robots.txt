@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://github.com/RCGuo/RCGuo.github-io/sitemap.xml
+Sitemap: https://rcguo.github.io/sitemap.xml
