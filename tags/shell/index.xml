@@ -5,6 +5,7 @@
     <link>https://rcguo.github.io/tags/shell/</link>
     <description>Recent content in shell on RCGuo&#39;s LogBook</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
     <lastBuildDate>Fri, 15 May 2020 00:20:20 +0800</lastBuildDate><atom:link href="https://rcguo.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Shell 重新導向: 將標準錯誤(stderr)輸出到螢幕和檔案</title>

@@ -5,7 +5,23 @@
     <link>https://rcguo.github.io/</link>
     <description>Recent content on RCGuo&#39;s LogBook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 15 May 2020 00:20:20 +0800</lastBuildDate><atom:link href="https://rcguo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 08 Jun 2020 00:20:20 +0800</lastBuildDate><atom:link href="https://rcguo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用PyPDF4在PDF文件加入浮水印(watermark)</title>
+      <link>https://rcguo.github.io/posts/2020/python_watermark/</link>
+      <pubDate>Mon, 08 Jun 2020 00:20:20 +0800</pubDate>
+      
+      <guid>https://rcguo.github.io/posts/2020/python_watermark/</guid>
+      <description>使用PyPDF4在PDF文件加入浮水印(watermark)
+PDF(Portable Document Format)是工作上常會用到的一種文件格式，有較不容易修改、傳輸方便、設備相容性和印刷品質較佳等優點。一般我們開發的軟體要自動發報告、帳單或收據給客戶，也都會優先選擇PDF為主要格式。
+合併PDF是目前加入浮水印的一種簡便方法，當浮水印樣式和內容固定的情況下開發會較為單純。本文以Pyhton的PyPDF4套件為例，雖然PyPDF4和PyPDF2不完全兼容，但此範例中所導入的函示方法和PyPDF2一樣，將套件名稱改掉後程式碼可以互相通用。
+用來示範的兩份PDF檔案，original_doc.pdf 和 watermark.pdf，程式會將浮水印合併到 original_doc.pdf 每一頁。
+   original_doc.pdf watermark.pdf          套件安裝 首先，安裝最新版的PyPDF4 (以下指令基於python3):
+pip3 install PyPDF4合併浮水印 merge_watermark()是實現合併浮水印的方法，每當合併完一頁PDF浮水印就透過writer實例立刻輸出。
+from PyPDF4 import PdfFileWriter, PdfFileReader def merge_watermark(input_pdf, output_pdf, watermark): &amp;#34;&amp;#34;&amp;#34; Merge watermark to target PDF &amp;#34;&amp;#34;&amp;#34; watermark_obj = PdfFileReader(watermark) watermark_page = watermark_obj.getPage(0) pdf_reader = PdfFileReader(input_pdf) pdf_writer = PdfFileWriter() # Add watermark to each page  for page_num in range(pdf_reader.</description>
+    </item>
+    
     <item>
       <title>Linux Shell 重新導向: 將標準錯誤(stderr)輸出到螢幕和檔案</title>
       <link>https://rcguo.github.io/posts/2020/linux_shell_redirect_stderr_stdout/</link>

@@ -3,11 +3,11 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>technical | RCGuo's LogBook</title>
+<title>python | RCGuo's LogBook</title>
 <meta name=keywords content>
 <meta name=description content="This blog is for documenting and sharing programming knowledge and learning experience">
 <meta name=author content="RCGuo">
-<link rel=canonical href=https://rcguo.github.io/categories/technical/>
+<link rel=canonical href=https://rcguo.github.io/tags/python/>
 <link href=/assets/css/stylesheet.min.1c4e37fc29107e0cd19512e3b8fda5afb36e9a3d3fa71dda4e332ca34cbbc2b9.css integrity="sha256-HE43/CkQfgzRlRLjuP2lr7Numj0/px3aTjMso0y7wrk=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://rcguo.github.io/48px.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://rcguo.github.io/16px.ico>
@@ -17,16 +17,16 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.92.0">
-<link rel=alternate type=application/rss+xml href=https://rcguo.github.io/categories/technical/index.xml>
+<link rel=alternate type=application/rss+xml href=https://rcguo.github.io/tags/python/index.xml>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','G-0J244V755F','auto'),ga('send','pageview'))</script>
 <script async src=https://www.google-analytics.com/analytics.js></script>
-<meta property="og:title" content="technical">
+<meta property="og:title" content="python">
 <meta property="og:description" content="This blog is for documenting and sharing programming knowledge and learning experience">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://rcguo.github.io/categories/technical/">
+<meta property="og:url" content="https://rcguo.github.io/tags/python/">
 <meta property="og:updated_time" content="2020-06-08T00:20:20+08:00"><meta property="og:site_name" content="RCGuo's LogBook">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="technical">
+<meta name=twitter:title content="python">
 <meta name=twitter:description content="This blog is for documenting and sharing programming knowledge and learning experience">
 </head>
 <body class=list id=top>
@@ -73,7 +73,7 @@
 </header>
 <main class=main>
 <header class=page-header>
-<h1>technical</h1>
+<h1>python</h1>
 </header>
 <article class="post-entry tag-entry">
 <figure class=entry-cover><img src=https://rcguo.github.io/images/photo-1578306040668-3a1fb99da3b3.jpg alt>
@@ -97,25 +97,6 @@ from PyPDF4 import PdfFileWriter, PdfFileReader def merge_watermark(input_pdf, o
 June 8, 2020&nbsp;·&nbsp;2 min&nbsp;·&nbsp;RCGuo
 </footer>
 <a class=entry-link aria-label="post link to 使用PyPDF4在PDF文件加入浮水印(watermark)" href=https://rcguo.github.io/posts/2020/python_watermark/></a>
-</article>
-<article class="post-entry tag-entry">
-<figure class=entry-cover><img src=https://rcguo.github.io/images/photo-1542885141-0bf39a1593a9.jpg alt>
-</figure>
-<header class=entry-header>
-<h2>
-Linux Shell 重新導向: 將標準錯誤(stderr)輸出到螢幕和檔案
-</h2>
-</header>
-<section class=entry-content>
-<p>開發的時候曾經遇到一個情況，需要在 shell 執行程式時將 stderr 導向 console，但是不能顯示stdout 的訊息，且必須同時 stderr 和 stdout 記錄到 log 檔案。
-文件描述符 (file descriptor) 在 UNIX/Linux 系統中，是使用非負整數(0, 1, 2, …)來表示文件描述符(file descriptor, fd)，用於標示系統中打開的文件和資源。 系統預設打開 0 (stdin), 1 (stdout), 2 (stderr)，也是我們平常常用到的描述符。
-接下來會將需求實作出來，並舉幾個例子以及需要注意的地方:
-藉由ls一個不存在的檔案來測試，並將 stderr 訊息導向 error.log，我們cat檔案可以看到錯誤訊息:ls: cannot access foo.txt: No such file or directory。 ls foo.txt 2>error.log 將 stderr 導向 stdout，指令中 &(ampersand)符號是告訴shell我們把 fd 2 導向 fd 1 這個fd而不是一個檔案名稱。 在linux下，一切皆檔案，所以系統背後所做的事情是將 fd 1 複製給 fd 2。 ls foo.txt 2>&1 以下的指令先將 stdout 導向 error....</p>
-</section>
-<footer class=entry-footer>
-May 15, 2020&nbsp;·&nbsp;1 min&nbsp;·&nbsp;RCGuo
-</footer>
-<a class=entry-link aria-label="post link to Linux Shell 重新導向: 將標準錯誤(stderr)輸出到螢幕和檔案" href=https://rcguo.github.io/posts/2020/linux_shell_redirect_stderr_stdout/></a>
 </article>
 </main><footer class=footer>
 <span>&copy; 2022 <a href=https://rcguo.github.io/>RCGuo's LogBook</a></span>
