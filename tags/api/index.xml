@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>api on RCGuo&#39;s LogBook</title>
+    <link>https://rcguo.github.io/tags/api/</link>
+    <description>Recent content in api on RCGuo&#39;s LogBook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 13 Jul 2021 00:20:20 +0800</lastBuildDate><atom:link href="https://rcguo.github.io/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>無伺服器實作入門 - 使用 AWS Lambda 和 DynamoDB 實作無伺服器 CRUD API</title>
+      <link>https://rcguo.github.io/posts/2021/build_a_crud_api_with_api_gateway_lambda_and_dynamodb/</link>
+      <pubDate>Tue, 13 Jul 2021 00:20:20 +0800</pubDate>
+      
+      <guid>https://rcguo.github.io/posts/2021/build_a_crud_api_with_api_gateway_lambda_and_dynamodb/</guid>
+      <description>(Updated: April 5, 2022 ) 在上一篇文章，已經介紹如何安裝 Serverless Framework 以及註冊 AWS 帳號，接下來要組合使用AWS Lambda 和 DynamoDB 並透過 API gateway 的介導讓外部進行存取，實作一個記事本後端 CRUD API。
+用預設模板(template)建立服務 俗話說「萬丈高樓平地起」，建立一個無伺服器服務就從模板開始。
+在create命令加上--help列出幫助訊息，當中會列出有哪些預設模板可以用，不同的模板有不同的起始程式碼和設定。
+serverless create --help         --template 透過預設模板創建服務   --template-url 讀取遠端儲藏庫來創建服務   --path 指定創建服務的資料夾，不存在的話就會建立一個新的    我們要使用aws-nodejs這個模板來建立我們的服務:
+serverless create --template aws-nodejs --path serverless-notes-rest-apicd serverless-notes-rest-apinpm init -yserverless-notes-rest-api資料夾下面有三個檔案handler.js、serverless.yml 和package.json，雖然裡面是很陽春的程式碼和設定，我們還是可以先部署到 AWS 看看。
+serverless deploy --verbose 如果你在部署的過程中遇到錯誤，有可能是 AWS 帳戶權限給錯了，或是 serverless framework 讀不到正確的 credentials，所以最好在部署指令上加--verbose印出詳細的 log 去一一排除。</description>
+    </item>
+    
+  </channel>
+</rss>

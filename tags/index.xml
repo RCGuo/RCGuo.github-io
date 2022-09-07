@@ -6,7 +6,52 @@
     <description>Recent content in Tags on RCGuo&#39;s LogBook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 08 Jun 2020 00:20:20 +0800</lastBuildDate><atom:link href="https://rcguo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jul 2021 00:20:20 +0800</lastBuildDate><atom:link href="https://rcguo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>api</title>
+      <link>https://rcguo.github.io/tags/api/</link>
+      <pubDate>Tue, 13 Jul 2021 00:20:20 +0800</pubDate>
+      
+      <guid>https://rcguo.github.io/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aws</title>
+      <link>https://rcguo.github.io/tags/aws/</link>
+      <pubDate>Tue, 13 Jul 2021 00:20:20 +0800</pubDate>
+      
+      <guid>https://rcguo.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dynamodb</title>
+      <link>https://rcguo.github.io/tags/dynamodb/</link>
+      <pubDate>Tue, 13 Jul 2021 00:20:20 +0800</pubDate>
+      
+      <guid>https://rcguo.github.io/tags/dynamodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lambda</title>
+      <link>https://rcguo.github.io/tags/lambda/</link>
+      <pubDate>Tue, 13 Jul 2021 00:20:20 +0800</pubDate>
+      
+      <guid>https://rcguo.github.io/tags/lambda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>serverless</title>
+      <link>https://rcguo.github.io/tags/serverless/</link>
+      <pubDate>Tue, 13 Jul 2021 00:20:20 +0800</pubDate>
+      
+      <guid>https://rcguo.github.io/tags/serverless/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>pdf</title>
       <link>https://rcguo.github.io/tags/pdf/</link>
